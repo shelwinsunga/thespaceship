@@ -16,14 +16,14 @@ export default function Home() {
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <main className="flex flex-row justify-between w-full max-w-7xl h-full">
-        <div className="w-1/2 h-full p-8 overflow-y-auto flex flex-col items-center mt-24">
+        <div className="w-1/2 h-full p-8 overflow-y-auto flex flex-col items-center pt-24">
           <div className="max-w-md">
             <h2 className="text-2xl font-bold mb-4">THE SPACESHIP</h2>
             <p className="mb-4">
               A house of the funniest people in the world, working on things in San Francisco. We call our house The Spaceship (our walls are white and we have three floors).
             </p>
             <p className="mb-6">
-              We're located in Mission, San Francisco by 25th and Capp.
+              We&apos;re located in Mission, San Francisco by 25th and Capp.
             </p>
             {Residents.map((resident) => (
               <Link href={resident?.link || "#"} key={resident.name}>

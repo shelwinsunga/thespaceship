@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 
-body {
-  font-family: "Press Start 2P", system-ui;
-}
-
 h2 {
   font-family: var(--font-press-start-2p);
 }
