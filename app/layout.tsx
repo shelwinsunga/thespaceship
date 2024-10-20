@@ -14,6 +14,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const pressStart2P = localFont({
+  src: "./fonts/PressStart2P-regular.ttf",
+  variable: "--font-press-start-2p",
+});
+
 export const metadata: Metadata = {
   title: "The Spaceship",
   description: "Multi-cultural hackerhouse, based in SF",
@@ -27,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${pressStart2P.variable} antialiased`}
       >
         <Grain />
         {children}

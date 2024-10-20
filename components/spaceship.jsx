@@ -61,7 +61,7 @@ function Spaceship() {
 
   useFrame(() => {
     if (group.current) {
-      group.current.rotation.y += 0.05
+      group.current.rotation.y += 0.017
     }
   })
 
