@@ -1,4 +1,5 @@
 import { TheSpaceship } from "@/components/spaceship";
+import Grain from "@/components/grain";
 
 export default function Home() {
   return (
