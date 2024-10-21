@@ -5,7 +5,7 @@ import Grain from "@/components/grain";
 import AnimatedFavicon from "@/components/favicon";
 
 const pressStart2P = localFont({
-  src: "./fonts/PressStart2P-regular.ttf",
+  src: "./fonts/PressStart2P-Regular.ttf",
   variable: "--font-press-start-2p",
 });
 
