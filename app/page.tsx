@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import Link from "next/link";
 
 const Residents = [
-  { name: "Shelwin Sunga", title: "Resident at Perplexity", link: "https://twitter.com/shelwin_" },
+  { name: "Shelwin", title: "Resident at Perplexity", link: "https://twitter.com/shelwin_" },
   { name: "Zach Dive", title: "Founder of Adam", link: "https://twitter.com/zachdive" },
   { name: "Maxime Raphael", title: "Product @ Meta", link: "https://www.instagram.com/maxime.raphael/" },
   { name: "Zelda Poem", title: "1517 Advisor", link: "https://twitter.com/zeldapoem" },
